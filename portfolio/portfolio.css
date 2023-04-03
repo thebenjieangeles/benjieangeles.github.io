@@ -256,3 +256,52 @@ span {
     right: 0;
   }
 }
+
+/* projects section */
+
+.container-portfolio {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  flex-wrap: wrap;
+}
+
+.card {
+  color: white;
+  background: transparent;
+  width: 270px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.card h2 {
+  color: orange;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card p {
+  color: whitesmoke;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.image1 {
+  background: url(../images/item-1.jpg);
+}
+
+.card:hover {
+  background-color: grey;
+  color: orange;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
