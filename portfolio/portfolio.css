@@ -298,6 +298,22 @@ span {
   background: url(../images/item-1.jpg);
 }
 
+.calc-image {
+  background: url(../images/calc-image.jpg);
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.card a {
+  color: orange;
+  text-decoration: none;
+}
+
+.card a:visited {
+  color: inherit;
+}
+
 .card:hover {
   background-color: grey;
   color: orange;
