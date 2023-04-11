@@ -323,10 +323,13 @@ span {
 @media screen and (max-width: 650px) {
   .about .content img {
     margin-bottom: 35px;
+    align-items: center;
   }
   .text h1 {
     font-size: 50px;
     margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
   }
   .text p {
     color: whitesmoke;
@@ -334,5 +337,7 @@ span {
     line-height: 28px;
     letter-spacing: 1px;
     margin-bottom: 45px;
+    align-items: center;
+    justify-content: center;
   }
 }
