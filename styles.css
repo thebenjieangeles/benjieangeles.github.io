@@ -25,7 +25,9 @@ body {
     url(images/R.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: fixed;
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -177,12 +179,17 @@ span {
   border: 2px solid orange;
   border-radius: 30px;
   cursor: pointer;
+  text-decoration: none;
 }
 .container .hero-text button:hover {
   background: transparent;
   border: 2px solid orange;
-  color: orange;
+  color: white;
   transition: 0.4s;
+}
+
+.container .hero-text button:visited {
+  color: inherit;
 }
 
 .bottom {
@@ -197,7 +204,7 @@ span {
   font-size: 15px;
 }
 
-@media screen and (max-width: 930px) {
+@media only screen and (max-width: 930px) {
   nav .hamb {
     display: initial;
   }
@@ -239,7 +246,7 @@ span {
   nav .nav-list li a {
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin-left: 0;
     margin-bottom: 40px;
@@ -250,9 +257,16 @@ span {
     right: 20%;
     left: 20%;
     padding: 7px 15px;
-    font-size: 14px;
+    font-size: 24px;
   }
   nav .nav-list.open {
     right: 0;
+  }
+  .container .hero-text h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
   }
 }
