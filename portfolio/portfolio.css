@@ -305,6 +305,13 @@ span {
   background-size: cover;
 }
 
+.library-image {
+  background: url(../images/library-image.jpg);
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
 .card a {
   color: orange;
   text-decoration: none;
